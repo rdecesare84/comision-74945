@@ -1,0 +1,16 @@
+@media screen and (max-width:384px){
+    header nav ul{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:384px){
+    header{
+        position: static;
+    }
+    }
+@media screen and (max-width:476px){
+        .hero p{
+             font-size: 10px;
+
+        }
+    }

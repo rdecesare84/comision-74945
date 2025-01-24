@@ -37,21 +37,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-@media screen and (max-width: 384px) {
-  header nav ul {
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 384px) {
-  header {
-    position: static;
-  }
-}
-@media screen and (max-width: 476px) {
-  .hero p {
-    font-size: 10px;
-  }
-}
 header {
   background-color: rgba(250, 231, 210, 0.521);
 }
@@ -190,6 +175,22 @@ footer a .wp {
   bottom: 0;
   right: 0;
   margin: 5px;
+}
+
+@media screen and (max-width: 384px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 384px) {
+  header {
+    position: static;
+  }
+}
+@media screen and (max-width: 476px) {
+  .hero p {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
