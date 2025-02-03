@@ -1,7 +1,7 @@
 header{
-    background-color: rgba(250, 231, 210, 0.521);
+    background-color: $color-principal;
     h1{
-        color: rgb(139, 79, 9);
+        color: $color-secundario;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
